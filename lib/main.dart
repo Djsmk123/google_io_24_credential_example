@@ -8,8 +8,7 @@ Future<void> main() async {
   if (credentialManager.isSupportedPlatform) {
     await credentialManager.init(
         preferImmediatelyAvailableCredentials: true,
-        googleClientId:
-            "492037512529-nbcdejpkq19ad1fos6ninmlh3990km3i.apps.googleusercontent.com");
+        googleClientId: "<GoogleClientId>");
   }
   runApp(const MyApp());
 }
